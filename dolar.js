@@ -3,6 +3,9 @@ const mede = +prompt ("mede reais: ")
 const cotacao = +prompt ("Cotação do dolár: ")
 const calculo = mede * cotacao
 
-if (cotacao <= 0) {
-    console.log()
+if (cotacao >= 0) {
+    console.log(`${calculo}`);
+}
+else {
+    console.log("Cotação Inválida!")
 }
