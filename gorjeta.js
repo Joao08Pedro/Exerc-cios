@@ -9,5 +9,5 @@ if (nota === "S" || nota === "s") {
     console.log(`Que bom que gostou do nosso atendimento! O valor do jantar ficará ficará por ${gorj}R$`);
 }
 else {
-    console.log(`Sentimos muito que você não tenha gostado do nosso atendimento :/... O valor do jantar ficará por ${nota}`)
+    console.log(`Sentimos muito que você não tenha gostado do nosso atendimento :/... O valor do jantar ficará por ${jantar}R$`)
 }
